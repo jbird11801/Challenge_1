@@ -1,4 +1,4 @@
-# <Hallenge_1>
+# <Challenge_1>
 
 ## Description
 
