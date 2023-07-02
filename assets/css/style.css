@@ -73,7 +73,7 @@ flex: 4;
 .search-engine-optimization h2 {
     position: absolute;
     right: 20px;
-    bottom: 200px;
+    bottom: 220px;
     font-size: 200%;
 
 }
@@ -134,29 +134,59 @@ flex: 4;
     display: flex;
     flex-wrap: wrap;
     right: 30px;
-    bottom: 100px;
-  max-width: 40%;
+    bottom: 100px;  
+    max-width: 40%;
 }
 
 .benefits-right-content{
-display: inline;
 flex: 1;
 border: solid blue;
-max-width: 20%;
-height: 700px;
-display: flex;
-flex-direction: column;
+background-color: blue;
+color: white;
+max-width: 25%;
+height: 1180px;
 
 }
-.benefits-right-content-lead{
+.benefits-right-content img{
+     width: auto;
+     height: 200px;
     
+    }
+.benefits-right-content-lead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    max-height: 360px;
+    margin-left: 10%;
+}.benefits-right-content-lead h3{
+    position: relative;
+    top: 50px;
+    text-align: center;
 }
 .benefits-right-content-brand{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    max-height: 360px;
+    margin-left: 10%;
+}
+.benefits-right-content-brand h3{
+    text-align: center;
 }
 .benefits-right-content-cost{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    max-height: 360px;
+    margin-left: 10%;
+}
+.benefits-right-content-cost h3{
+    text-align: center;
 }
 .footer{
-background-color: blue;
+    text-align: center;
+    background-color: blue;
 }
