@@ -1,0 +1,192 @@
+body{
+font-size: 16px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display: flex;
+    background-color: blue;
+    color: white;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+    
+}
+nav a {
+    color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+.seo{
+
+}
+.hero{
+ width: 100%;
+}
+.content{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.left-content{
+display: flex;
+flex-direction: column;
+margin-right: 20px;
+flex: 4;
+}
+.float-left{
+    position: relative;
+    width: auto;
+
+    height: 250px;
+    top: 25px;
+}
+
+.float-right{
+    position: absolute;
+    width: auto;
+    height: 250px;
+    right: 20px;
+    bottom: 25px;
+}
+
+
+
+.search-engine-optimization{
+    position: relative;
+    max-width: 200%;
+    height: 300px;
+    border: solid 20px blue;
+    background-color: rgb(0, 0, 255);
+    color: white;
+   margin: 10px;
+}
+.search-engine-optimization h2 {
+    position: absolute;
+    right: 20px;
+    bottom: 220px;
+    font-size: 200%;
+
+}
+.search-engine-optimization p {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    right: 30px;
+    bottom: 100px;
+  max-width: 40%;
+}
+
+
+#online-reputation-management{
+    position: relative;
+    border: solid 20px blue;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    max-width: 200%;
+    height: 300px;
+    margin: 10px;
+}
+#online-reputation-management h2 {
+    position: absolute;
+    left: 20px;
+    bottom: 200px;
+    font-size: 200%;
+
+}
+#online-reputation-management p {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 20px;
+    bottom: 90px;
+  max-width: 40%;
+}
+
+
+.social-media-marketing{
+    position: relative;
+    border: solid 20px blue;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    max-width: 200%;
+    height: 300px;
+    margin: 10px;
+}
+.social-media-marketing h2 {
+    position: absolute;
+    right: 90px;
+    bottom: 200px;
+    font-size: 200%;
+
+}
+.social-media-marketing p {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    right: 30px;
+    bottom: 100px;  
+    max-width: 40%;
+}
+
+.benefits-right-content{
+flex: 1;
+border: solid blue;
+background-color: blue;
+color: white;
+max-width: 25%;
+height: 1180px;
+
+}
+.benefits-right-content img{
+     width: auto;
+     height: 200px;
+    
+    }
+.benefits-right-content-lead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    max-height: 360px;
+    margin-left: 10%;
+}.benefits-right-content-lead h3{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.benefits-right-content-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    max-height: 360px;
+    margin-left: 10%;
+}
+.benefits-right-content-brand h3{
+    text-align: center;
+}
+.benefits-right-content-cost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    max-height: 360px;
+    margin-left: 10%;
+}
+.benefits-right-content-cost h3{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: blue;
+}

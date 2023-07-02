@@ -32,9 +32,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-Reference file contains the promt for the file and a example that I copied from my class repo so as to easly read it as im going. This is the link to where I got the repo off git labs (https://git.bootcampcontent.com/University-of-New-Hampshire/UNH-VIRT-FSF-PT-06-2023-U-LOLC).
+Reference file contains the promt for the file and a example that I copied from my class repo so as to easly read it as im going. This is the link to where I got the repo off git labs I also used some of 2-6 - STU - Responsove - Design (https://git.bootcampcontent.com/University-of-New-Hampshire/UNH-VIRT-FSF-PT-06-2023-U-LOLC).
 
 I used module 0 prework 3.5.3 to make a better read me file (https://courses.bootcampspot.com/courses/3906/pages/3-dot-5-3-create-a-professional-project-readme?module_item_id=885925)
+
 
 ## License
 
