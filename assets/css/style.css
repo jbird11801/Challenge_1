@@ -1,3 +1,409 @@
+
+/*
+Universal selector ( * means to apply to everything )
+
+box-sizing "Specifies the behavior of the 'width' and 'height' properties"
+
+padding is a buffer around the specified content in this case everying has a padding of 0
+
+margin is a buffer around the specified content in this case everying has a margin of 0
+
+*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*
+element selector ( element selector applays to everything in the specified element in this case the body )
+
+background-color makes the bacground , in this example the body bacground,  the color #d9dcd6
+
+*/
+body {
+    background-color: #d9dcd6;
+}
+/*
+class selector ( class selector applays to everything in the in this case the class header { a class is denoted by the . } )
+
+paddinge see line 7
+
+font-family sets the font to the first one the web browser understands it will cheack if it recognize "Trebuchet MS" if not then "Lucida Sans Unicode" going on each one being more common
+
+background-color see line 20
+
+color sets the color of the elements text in this case to #ffffff
+*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*
+class selector (see line 27{ but the h1 denotetes that this ony affects h1 child element in the header parent class})
+
+display in the best way i can understand it affects the way elements are ordered on the page ( inline-block is like the individual element are put into blocks that are all on the same line )
+
+font size sets the text size to 48 pixels
+*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*
+class selector (see line 27 {see line 44} [  the header has two diffrents colors so the seo class affects the specified content in the h1 tital in the header class] )
+
+color see line 35
+*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/*
+class selector (see line 27 {see  like secnerio on line 44, but div affects a segment of code that can affect multiple elements} )
+
+padding see line 7 ( the top indicates that the buffer is only on the top )
+
+margin-right see line 9 ( the right indicates that the buffer is only on the right )]
+
+float "Specifies how a box should be floated{ie direction}. It may be set for any element, but only applies to elements that generate boxes that are not absolutely positioned."
+
+font family see line 31
+
+font size see line 48
+
+*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*
+class selector (see line 55 for like secnario { only affects unsorted lists in the div segment in the header class )
+
+list style type is used to set how the list is marked (ie bullet points) in this example the none means no bullet points or anything
+
+*/
+.header div ul {
+    list-style-type: none;
+}
+/*
+class selector (see line 84 for like secnario { only affects the list unsorted lists parent in the div segment in the header class )
+
+display see line 46
+
+margin see line 67
+*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*
+element selector see line 18
+
+color see line 35
+
+text-decoration is used to apply effects to the text in this case no effect is applyed
+*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*
+element selector see line 18
+
+font size see line 48
+*/
+p {
+    font-size: 16px;
+}
+/*
+class selector (see line 27)
+
+height affects how tall the elemt is in this case 800 pixels
+
+width sets how wide the element is in this case its 100% of the screen 
+
+margin see line 67
+
+background-image sets the background to a element to the image specified
+
+background-size specifys how the size of the image in this case it covers the
+    
+background-position specifys the inital position of the image center in this position
+*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*
+imma group float left and right into one as they are so similar
+
+class selector (see line 27)
+
+float see line 69
+
+margin see line 67
+*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*
+class selector (see line 27)
+
+width see line 127
+
+display 46
+
+margin see line 67
+*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*
+class selector (see line 27)
+
+margin see line 67
+
+padding see line 65
+
+float see line 69
+
+width see line 127
+
+height see line 125
+
+font family see line 31
+
+background-color see line 20
+*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*
+imma bundle benefit lead/brand/cost into one due to their similar nature
+
+class selector (see line 27)
+
+margin see line 67
+
+color see line 35
+*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*
+imma bundle benefit lead/brand/cost h3 into one due to their similar nature
+
+class selector (see line 44)
+
+margin see line 67
+
+text-align is used to denote where the text is in this case its in the center of the parent 
+*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*
+imma bundle benefit lead/brand/cost img into one due to their similar nature
+
+class selector (see line 44)
+
+diplay see line 46 (block denotes that each element is displayed in a block in a colum 
+
+margin see line 67 auto i belive sets the display touto adjust the pixels when neccisary 
+
+max width sets the maximum width the element can be in this case 150 pixels
+*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*
+imma bundle search-engine-optimization/online-reputation-management/social-media-marketing into one due to their similar nature
+
+class selector (see line 27)
+
+margin see line 67
+
+padding see line 65
+
+height see line 125
+
+font family see line 31
+
+background-color see line 20
+
+color see line 35
+*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*
+imma bundle search-engine-optimization/online-reputation-management/social-media-marketing img into one due to their similar nature
+
+class selector (see line 44)
+
+max-height sets the max height of a element to 200 pixels
+*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*
+imma bundle search-engine-optimization/online-reputation-management/social-media-marketing img into one due to their similar nature
+
+class selector (see line 44)
+
+margin see line 67
+
+font-size see line 48 
+*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*
+class selector (see line 27)
+
+padding see line 65
+
+clear "Indicates which sides of an element's box(es) may not be adjacent to an earlier floating box. The 'clear' property does not consider floats inside the element itself or in other block formatting contexts."
+
+font family see line 31
+
+text align see line 234
+*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*
+class selector (see line 44)
+
+font size see line 48
+*/
+.footer h2 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+i didnt see the css file so i remade it see read me description for more
+
+
+
 body{
 font-size: 16px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
