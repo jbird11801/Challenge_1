@@ -105,51 +105,51 @@ Be sure to add, commit, and push your work to see the most up-to-date version of
 
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
 >
-> * A repository that has no code
+> * A repository that has no code x
 >
-> * A repository that includes a unique name but nothing else
+> * A repository that includes a unique name but nothing else x
 >
-> * A repository that includes only a README file but nothing else
+> * A repository that includes only a README file but nothing else x
 >
-> * A repository that only includes starter code
+> * A repository that only includes starter code x
 
 This Challenge is graded based on the following criteria: 
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
+* Satisfies all of the preceding acceptance criteria plus the following code improvements: 
 
-  * Application's links all function correctly.
+  * Application's links all function correctly. x
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure. 
 
-  * Application's CSS file is properly commented.
+  * Application's CSS file is properly commented. x
 
 ### Deployment: 32%
 
-* Application deployed at live URL.
+* Application deployed at live URL. x
 
-* Application loads with no errors.
+* Application loads with no errors. x
 
-* Application GitHub URL submitted.
+* Application GitHub URL submitted. 
 
-* GitHub repository contains application code.
+* GitHub repository contains application code. x
 
 ### Application Quality: 15%
 
-* Application resembles mock-up provided in the Challenge instructions (at least 90%).
+* Application resembles mock-up provided in the Challenge instructions (at least 90%). x
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
+* Repository has a unique name. x
 
-* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for file structure and naming conventions. x
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. x
 
-* Repository contains multiple descriptive commit messages.
+* Repository contains multiple descriptive commit messages. x
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+* Repository contains quality README file with description, screenshot, and link to deployed application. x
 
 ## Review
 
