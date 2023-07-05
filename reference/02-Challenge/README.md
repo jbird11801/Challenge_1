@@ -131,7 +131,7 @@ This Challenge is graded based on the following criteria:
 
 * Application loads with no errors. x
 
-* Application GitHub URL submitted. 
+* Application GitHub URL submitted. x
 
 * GitHub repository contains application code. x
 
