@@ -121,7 +121,7 @@ This Challenge is graded based on the following criteria:
 
   * Application's links all function correctly. x
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure. 
+  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure. x
 
   * Application's CSS file is properly commented. x
 

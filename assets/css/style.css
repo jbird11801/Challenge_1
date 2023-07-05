@@ -24,7 +24,7 @@ body {
     background-color: #d9dcd6;
 }
 /*
-class selector ( class selector applays to everything in the in this case the class header { a class is denoted by the . } )
+element selector see line 18
 
 paddinge see line 7
 
@@ -34,33 +34,33 @@ background-color see line 20
 
 color sets the color of the elements text in this case to #ffffff
 */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 /*
-class selector (see line 27{ but the h1 denotetes that this ony affects h1 child element in the header parent class})
+element selector (see line 18{ but the h1 denotetes that this ony affects h1 child element in the header parent})
 
 display in the best way i can understand it affects the way elements are ordered on the page ( inline-block is like the individual element are put into blocks that are all on the same line )
 
 font size sets the text size to 48 pixels
 */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /*
-class selector (see line 27 {see line 44} [  the header has two diffrents colors so the seo class affects the specified content in the h1 tital in the header class] )
+element selector {see line 44} [  the header has two diffrents colors so the seo class affects the specified content in the h1 tital in the header]
 
 color see line 35
 */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 /*
-class selector (see line 27 {see  like secnerio on line 44, but div affects a segment of code that can affect multiple elements} )
+element selector (see line 27 {see  like secnerio on line 44, but nav affects a segment of code that can affect multiple elements} )
 
 padding see line 7 ( the top indicates that the buffer is only on the top )
 
@@ -73,7 +73,7 @@ font family see line 31
 font size see line 48
 
 */
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -81,22 +81,22 @@ font size see line 48
     font-size: 20px;
 }
 /*
-class selector (see line 55 for like secnario { only affects unsorted lists in the div segment in the header class )
+element selector (see line 55 for like secnario { only affects unsorted lists in the nav segment in the header)
 
 list style type is used to set how the list is marked (ie bullet points) in this example the none means no bullet points or anything
 
 */
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 /*
-class selector (see line 84 for like secnario { only affects the list unsorted lists parent in the div segment in the header class )
+element selector  (see line 84 for like secnario { only affects the list unsorted lists parent in the nav segment in the header )
 
 display see line 46
 
 margin see line 67
 */
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -120,7 +120,7 @@ p {
     font-size: 16px;
 }
 /*
-class selector (see line 27)
+class selector ( class selector applays to everything that has the specified class in this case the hero class{ a class is denoted by the .} )
 
 height affects how tall the elemt is in this case 800 pixels
 
@@ -145,7 +145,7 @@ background-position specifys the inital position of the image center in this pos
 /*
 imma group float left and right into one as they are so similar
 
-class selector (see line 27)
+class selector (see line 123)
 
 float see line 69
 
@@ -161,7 +161,7 @@ margin see line 67
     margin-left: 25px;
 }
 /*
-class selector (see line 27)
+class selector (see line 123)
 
 width see line 127
 
@@ -175,7 +175,7 @@ margin see line 67
     margin-left: 20px;
 }
 /*
-class selector (see line 27)
+class selector (see line 123)
 
 margin see line 67
 
@@ -204,7 +204,7 @@ background-color see line 20
 /*
 imma bundle benefit lead/brand/cost into one due to their similar nature
 
-class selector (see line 27)
+class selector (see line 123)
 
 margin see line 67
 
@@ -278,7 +278,7 @@ max width sets the maximum width the element can be in this case 150 pixels
 /*
 imma bundle search-engine-optimization/online-reputation-management/social-media-marketing into one due to their similar nature
 
-class selector (see line 27)
+class selector (see line 123)
 
 margin see line 67
 
@@ -360,7 +360,7 @@ font-size see line 48
     font-size: 36px;
 }
 /*
-class selector (see line 27)
+element selector see line 18
 
 padding see line 65
 
@@ -370,7 +370,7 @@ font family see line 31
 
 text align see line 234
 */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -381,7 +381,7 @@ class selector (see line 44)
 
 font size see line 48
 */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
 

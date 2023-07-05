@@ -20,6 +20,8 @@ Reference file contains the promt for the file and a example that I copied from 
 
  I also used some definition when commenting from just hovering the mouse over the content in question
 
+ learned more on semantic structures here (https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+
 
 ## License
 
